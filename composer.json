@@ -1,0 +1,28 @@
+{
+    "name": "limousinesearch/wordpress",
+    "description": "Plugin to show quote forms on WP site",
+    "type": "wordpress-plugin",
+    "keywords": ["limousinesearch", "limo", "wordpress"],
+    "license": "GNU General Public License",
+    "autoload": {
+        "psr-4": {
+            "LimousineSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mauro Baptista",
+            "email": "mauro@benjatech.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
